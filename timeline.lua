@@ -90,25 +90,25 @@ function process(box)
 		box:send_stimulation(1, OVTK_GDF_VEP, t, 0)
 		t = t + blank_duration
 
-		box:send_stimulation(1, OVTK_GDF_Tongue, t, 0)
+		box:send_stimulation(1, OVTK_GDF_Stage_1, t, 0)
 		t = t + speaking_duration
 
 		box:send_stimulation(1, OVTK_GDF_VEP, t, 0)
 		t = t + blank_duration
 
-		box:send_stimulation(1, OVTK_GDF_Tongue, t, 0)
+		box:send_stimulation(1, OVTK_GDF_Stage_2, t, 0)
 		t = t + speaking_duration
 
 		box:send_stimulation(1, OVTK_GDF_VEP, t, 0)
 		t = t + blank_duration
 
-		box:send_stimulation(1, OVTK_GDF_Tongue, t, 0)
+		box:send_stimulation(1, OVTK_GDF_Stage_3, t, 0)
 		t = t + speaking_duration
 
 		box:send_stimulation(1, OVTK_GDF_VEP, t, 0)
 		t = t + blank_duration
 
-		box:send_stimulation(1, OVTK_GDF_Tongue, t, 0)
+		box:send_stimulation(1, OVTK_GDF_Stage_4, t, 0)
 		t = t + speaking_duration
 		
 		--rest
