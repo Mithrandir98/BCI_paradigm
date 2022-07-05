@@ -51,11 +51,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>112</Value>
+					<Value>96</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>304</Value>
+					<Value>512</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -76,6 +76,152 @@
 				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
 					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000290d, 0x00002d20)</Identifier>
+			<Name>Toilet</Name>
+			<AlgorithmClassIdentifier>(0x7ac2396f, 0x7ee52efe)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input triggers</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Resync triggers (deprecated)</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>PLAY trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_StimulationId_Label_43</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>STOP trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_StimulationId_Label_00</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>File to play</Name>
+					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Toilet_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Loop</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>368</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-32</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xd327e20a, 0xaae6b1f8)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00002df0, 0x00007c82)</Identifier>
+			<Name>Stop</Name>
+			<AlgorithmClassIdentifier>(0x7ac2396f, 0x7ee52efe)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input triggers</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Resync triggers (deprecated)</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>PLAY trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_StimulationId_Label_42</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>STOP trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_StimulationId_Label_00</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>File to play</Name>
+					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Stop_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Loop</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>304</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-32</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xd327e20a, 0xaae6b1f8)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -126,11 +272,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>336</Value>
+					<Value>320</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>336</Value>
+					<Value>544</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -197,11 +343,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>672</Value>
+					<Value>656</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>368</Value>
+					<Value>576</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -564,7 +710,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00528848, 0x39fdf7aa)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 6</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/06.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_text.png</Value>
@@ -579,7 +725,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00754f18, 0x8864d002)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 7</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/07.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/apple_image.jpg</Value>
@@ -594,7 +740,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x005eeda6, 0x3138cf5a)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 8</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/08.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/dog_image.jpg</Value>
@@ -609,7 +755,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x0008e341, 0x1fdcf7b2)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 9</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/09.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -624,7 +770,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x004c948c, 0x4f8c0b0a)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 10</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/10.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -639,7 +785,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x0035b736, 0x1d5be962)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 11</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/11.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -654,7 +800,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x003fe254, 0xc0c898ba)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 12</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/12.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -669,7 +815,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00049c52, 0x163e9712)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 13</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/13.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -684,7 +830,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00602527, 0xb1da9c6a)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 14</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/14.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -699,7 +845,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x007b6e27, 0xf09e16c2)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 15</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/15.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -714,7 +860,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x004d6706, 0xc17ca41a)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 16</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/16.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -729,7 +875,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x000c3ed9, 0x00468472)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 17</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/17.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -744,7 +890,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x000b66ea, 0xb1c271ca)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 18</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/18.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -759,7 +905,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00405ea2, 0x4234d717)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 19</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/19.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -774,7 +920,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x0074cf7d, 0x5ddc520f)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 20</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/20.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -789,7 +935,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x006fdc84, 0x1bdcd807)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 21</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/21.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -804,7 +950,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00096645, 0x807158ff)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 22</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/22.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -819,7 +965,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00642c33, 0x64f723ef)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 23</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/23.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -834,7 +980,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x0004e8be, 0x27a20de7)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 24</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/24.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -849,7 +995,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x002ef8ad, 0xbe2be3eb)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 25</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/25.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -864,7 +1010,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x004261fa, 0x162b0963)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 26</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/26.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -879,7 +1025,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x0024ff33, 0xa816f9db)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 27</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/27.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -894,7 +1040,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x0024ede5, 0x32e86153)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 28</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/28.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -909,7 +1055,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x006e792d, 0x39c933cb)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 29</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/29.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -924,7 +1070,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00039989, 0xd5b37543)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 30</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/30.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/dog_image.jpg</Value>
@@ -939,7 +1085,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00685171, 0x8896d1bb)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 31</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/31.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -954,7 +1100,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00770363, 0x90e86533)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 32</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/32.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -969,7 +1115,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x007147e7, 0xd54413ab)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 33</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/33.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking5.png</Value>
@@ -984,7 +1130,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x0031c7f5, 0x606db123)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 34</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/34.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking4.png</Value>
@@ -999,7 +1145,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x001b2b92, 0x6a1f399b)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 35</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/35.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking3.png</Value>
@@ -1014,7 +1160,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x003062be, 0x0c9fd913)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 36</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/36.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking2.png</Value>
@@ -1029,7 +1175,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x000abd52, 0x69d0dd70)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 37</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/37.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
@@ -1044,7 +1190,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x00208b7d, 0xd3e8b088)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 38</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/38.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/break_image.png</Value>
@@ -1059,7 +1205,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x003136da, 0x2b28f0a0)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 39</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/39.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking1.png</Value>
@@ -1074,7 +1220,7 @@
 				</Setting>
 				<Setting>
 					<Identifier>(0x000280d2, 0xe24b7179)</Identifier>
-					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 40</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/40.png</DefaultValue>
 					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/rest.png</Value>
@@ -1087,11 +1233,191 @@
 					<Value>OVTK_StimulationId_RestStart</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
+				<Setting>
+					<Identifier>(0x0c83c97e, 0x1c0880ee)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 41</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/41.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Ambulance_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 41</Name>
+					<DefaultValue>OVTK_StimulationId_Label_41</DefaultValue>
+					<Value>OVTK_StimulationId_Label_41</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x5778239e, 0x7a6c581e)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 42</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/42.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Stop_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 42</Name>
+					<DefaultValue>OVTK_StimulationId_Label_42</DefaultValue>
+					<Value>OVTK_StimulationId_Label_42</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0xf37fe88a, 0xb4a2c990)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 43</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/43.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Toilet_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 43</Name>
+					<DefaultValue>OVTK_StimulationId_Label_43</DefaultValue>
+					<Value>OVTK_StimulationId_Label_43</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x067873df, 0x5e59a19e)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 44</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/44.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Water_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 44</Name>
+					<DefaultValue>OVTK_StimulationId_Label_44</DefaultValue>
+					<Value>OVTK_StimulationId_Label_44</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0xadecc66f, 0x8a5046be)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 45</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/45.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/ambulance.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 45</Name>
+					<DefaultValue>OVTK_StimulationId_Label_45</DefaultValue>
+					<Value>OVTK_StimulationId_Label_45</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x9c6f015a, 0x7a8d5619)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 46</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/46.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 46</Name>
+					<DefaultValue>OVTK_StimulationId_Label_46</DefaultValue>
+					<Value>OVTK_StimulationId_Label_46</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x3fba1786, 0x73e5e8bb)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 47</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/47.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 47</Name>
+					<DefaultValue>OVTK_StimulationId_Label_47</DefaultValue>
+					<Value>OVTK_StimulationId_Label_47</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x682108b2, 0xc32622a6)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 48</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/48.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 48</Name>
+					<DefaultValue>OVTK_StimulationId_Label_48</DefaultValue>
+					<Value>OVTK_StimulationId_Label_48</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0xba855838, 0xa015c77e)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 49</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/49.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Ambulance_text.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 49</Name>
+					<DefaultValue>OVTK_StimulationId_Label_49</DefaultValue>
+					<Value>OVTK_StimulationId_Label_49</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x90716aa0, 0xf0ca9ff1)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 50</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/50.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop_text.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 50</Name>
+					<DefaultValue>OVTK_StimulationId_Label_50</DefaultValue>
+					<Value>OVTK_StimulationId_Label_50</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x12904c3a, 0x1f1bc6ab)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 51</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/51.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet_text.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 51</Name>
+					<DefaultValue>OVTK_StimulationId_Label_51</DefaultValue>
+					<Value>OVTK_StimulationId_Label_51</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x3df5e7f5, 0x1308834f)</Identifier>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 52</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/52.png</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water_text.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 52</Name>
+					<DefaultValue>OVTK_StimulationId_Label_52</DefaultValue>
+					<Value>OVTK_StimulationId_Label_52</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
 			</Settings>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>336</Value>
+					<Value>592</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
@@ -1120,6 +1446,79 @@
 				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
 					<Value>5</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00005a46, 0x00001e22)</Identifier>
+			<Name>Ambulance</Name>
+			<AlgorithmClassIdentifier>(0x7ac2396f, 0x7ee52efe)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input triggers</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Resync triggers (deprecated)</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>PLAY trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_StimulationId_Label_41</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>STOP trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_StimulationId_Label_00</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>File to play</Name>
+					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Ambulance_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Loop</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>304</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-192</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xd327e20a, 0xaae6b1f8)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
@@ -1174,11 +1573,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>512</Value>
+					<Value>496</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>48</Value>
+					<Value>256</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1245,11 +1644,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>512</Value>
+					<Value>496</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>208</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1316,11 +1715,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>512</Value>
+					<Value>496</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>368</Value>
+					<Value>576</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1387,11 +1786,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>512</Value>
+					<Value>496</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>528</Value>
+					<Value>736</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1458,11 +1857,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>496</Value>
+					<Value>480</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>704</Value>
+					<Value>912</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1584,11 +1983,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>192</Value>
+					<Value>176</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>496</Value>
+					<Value>704</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1658,11 +2057,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>256</Value>
+					<Value>240</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>320</Value>
+					<Value>528</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1728,11 +2127,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>592</Value>
+					<Value>576</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>368</Value>
+					<Value>576</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1798,11 +2197,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>432</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>48</Value>
+					<Value>256</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1868,11 +2267,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>432</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>208</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1938,11 +2337,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>432</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>368</Value>
+					<Value>576</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2008,11 +2407,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>432</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>528</Value>
+					<Value>736</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2078,11 +2477,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>416</Value>
+					<Value>400</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>704</Value>
+					<Value>912</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2148,11 +2547,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>752</Value>
+					<Value>736</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>368</Value>
+					<Value>576</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2235,6 +2634,79 @@
 				<Attribute>
 					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
 					<Value></Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00007e27, 0x000062b5)</Identifier>
+			<Name>Water</Name>
+			<AlgorithmClassIdentifier>(0x7ac2396f, 0x7ee52efe)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input triggers</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Resync triggers (deprecated)</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>PLAY trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_StimulationId_Label_44</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>STOP trigger</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_StimulationId_Label_00</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>File to play</Name>
+					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Water_audio.wav</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Loop</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>368</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-192</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xd327e20a, 0xaae6b1f8)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
