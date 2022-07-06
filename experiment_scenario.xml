@@ -128,7 +128,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>368</Value>
+					<Value>464</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
@@ -201,7 +201,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>304</Value>
+					<Value>367</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
@@ -1238,7 +1238,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 41</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/41.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Ambulance_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Ambulance_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1253,7 +1253,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 42</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/42.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Stop_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1268,7 +1268,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 43</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/43.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Toilet_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1283,7 +1283,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 44</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/44.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Water_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1502,7 +1502,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>304</Value>
+					<Value>368</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
@@ -2597,7 +2597,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>128</Value>
+					<Value>112</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
@@ -2686,7 +2686,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>368</Value>
+					<Value>464</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
@@ -2732,6 +2732,17 @@
 			<Target>
 				<BoxIdentifier>(0x0000743f, 0x00004421)</BoxIdentifier>
 				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x0000154f, 0x00002d1d)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00002df0, 0x00007c82)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -2830,6 +2841,17 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x000045e9, 0x00003a99)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00003ce4, 0x000031a2)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000290d, 0x00002d20)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -3010,6 +3032,17 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x0000717e, 0x00004650)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00005a46, 0x00001e22)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x00007473, 0x00003d0c)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
@@ -3031,6 +3064,17 @@
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
+		<Link>
+			<Identifier>(0x00007f89, 0x00006f8d)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00007e27, 0x000062b5)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
 	</Links>
 	<Comments></Comments>
 	<Metadata>
@@ -3040,4 +3084,46 @@
 			<Data>[{"boxIdentifier":"(0x000045e9, 0x00003a99)","childCount":0,"identifier":"(0x000017be, 0x00001547)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"height":320,"identifier":"(0x00003e29, 0x00006912)","name":"Default window","parentIdentifier":"(0xffffffff, 0xffffffff)","type":1,"width":480},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"identifier":"(0x00003341, 0x000035ea)","index":0,"name":"Default tab","parentIdentifier":"(0x00003e29, 0x00006912)","type":2},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":0,"identifier":"(0x00000478, 0x000066a9)","index":0,"name":"Empty","parentIdentifier":"(0x00003341, 0x000035ea)","type":0}]</Data>
 		</Entry>
 	</Metadata>
+	<Attributes>
+		<Attribute>
+			<Identifier>(0x079d1f09, 0x667c7871)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0x60bc58ab, 0x7a1b4d83)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0x790d75b8, 0x3bb90c33)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0x7a3a1558, 0xf12c63c2)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0x84009d7c, 0x3c4e763b)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0x8c1fc55b, 0x7b433dc2)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0x9f5c4075, 0x4a0d3666)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0xf36a1567, 0xd13c53da)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0xf6b2e3fa, 0x7bd43926)</Identifier>
+			<Value></Value>
+		</Attribute>
+		<Attribute>
+			<Identifier>(0xf8034a49, 0x8b3f37cc)</Identifier>
+			<Value></Value>
+		</Attribute>
+	</Attributes>
 </OpenViBE-Scenario>
