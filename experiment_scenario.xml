@@ -7,225 +7,6 @@
 	<Outputs></Outputs>
 	<Boxes>
 		<Box>
-			<Identifier>(0x000007e1, 0x000027ef)</Identifier>
-			<Name>speaking10</Name>
-			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input signal</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Input stimulations</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Epoched signal</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch duration (in sec)</Name>
-					<DefaultValue>1</DefaultValue>
-					<Value>2</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch offset (in sec)</Name>
-					<DefaultValue>0.5</DefaultValue>
-					<Value>0</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
-					<Name>Stimulation 1</Name>
-					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
-					<Value>OVTK_StimulationId_Label_21</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>400</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1600</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x5de31172, 0xa1304456)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>3</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x0000123a, 0x00000efe)</Identifier>
-			<Name>CSV File Writer</Name>
-			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input stream</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Stimulations stream</Name>
-				</Input>
-			</Inputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
-					<Name>Filename</Name>
-					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking10.csv</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
-					<Name>Precision</Name>
-					<DefaultValue>10</DefaultValue>
-					<Value>10</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Append data</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Only last matrix</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>480</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1600</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xc33e47e0, 0x70e5f31b)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>4</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x00001cf5, 0x00001479)</Identifier>
-			<Name>speaking8</Name>
-			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input signal</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Input stimulations</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Epoched signal</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch duration (in sec)</Name>
-					<DefaultValue>1</DefaultValue>
-					<Value>2</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch offset (in sec)</Name>
-					<DefaultValue>0.5</DefaultValue>
-					<Value>0</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
-					<Name>Stimulation 1</Name>
-					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
-					<Value>OVTK_StimulationId_Label_DF</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>400</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1248</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x5de31172, 0xa1304456)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>3</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
 			<Identifier>(0x00002726, 0x0000531f)</Identifier>
 			<Name>Acquisition client</Name>
 			<AlgorithmClassIdentifier>(0x35d225cb, 0x3e6e3a5f)</AlgorithmClassIdentifier>
@@ -270,11 +51,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>80</Value>
+					<Value>96</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>496</Value>
+					<Value>320</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -317,7 +98,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/stimuli.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/stimuli.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -349,7 +130,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>400</Value>
+					<Value>352</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -388,7 +169,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/resting.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/resting.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -420,7 +201,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>448</Value>
+					<Value>400</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -459,7 +240,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/break.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/break.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -487,86 +268,15 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>816</Value>
+					<Value>800</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>464</Value>
+					<Value>400</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
 					<Value>(0xee4b6d30, 0x788aed29)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>4</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x0000301d, 0x00005dc0)</Identifier>
-			<Name>CSV File Writer</Name>
-			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input stream</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Stimulations stream</Name>
-				</Input>
-			</Inputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
-					<Name>Filename</Name>
-					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking8.csv</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
-					<Name>Precision</Name>
-					<DefaultValue>10</DefaultValue>
-					<Value>10</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Append data</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Only last matrix</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>480</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1248</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xc33e47e0, 0x70e5f31b)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
@@ -624,7 +334,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 1</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/01.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Ambulance_audio.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/Ambulance_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -638,7 +348,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 2</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/02.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop_audio.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/Stop_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -652,7 +362,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 3</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/03.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet_audio.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/Toilet_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -666,7 +376,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 4</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/04.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water_audio.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/Water_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -680,7 +390,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 5</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/07.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Ambulance_text.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/Ambulance_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -695,7 +405,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 6</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/06.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop_text.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/Stop_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -710,7 +420,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 7</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/07.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet_text.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/Toilet_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -725,7 +435,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 8</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/08.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water_text.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/Water_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -740,7 +450,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 9</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/09.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/ambulance.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/ambulance.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -755,7 +465,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 10</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/10.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/Stop.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -770,7 +480,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 11</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/11.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/Toilet.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -785,7 +495,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 12</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/12.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/Water.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -800,7 +510,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 13</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/13.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking6.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -815,7 +525,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 14</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/14.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking7.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -830,7 +540,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 15</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/15.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking8.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -845,7 +555,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 16</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/16.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking9.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -860,7 +570,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 17</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/17.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking10.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -875,7 +585,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 18</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/18.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -890,7 +600,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 19</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/19.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -905,7 +615,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 20</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/20.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -920,7 +630,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 21</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/21.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -935,7 +645,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 22</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/22.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -950,7 +660,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 23</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/23.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -965,7 +675,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 24</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/24.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -980,7 +690,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 25</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/25.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -995,7 +705,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 26</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/26.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1010,14 +720,14 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 27</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/27.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking1.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
 					<Name>Stimulation 27</Name>
 					<DefaultValue>OVTK_StimulationId_Label_1B</DefaultValue>
-					<Value>OVTK_StimulationId_Label_1D</Value>
+					<Value>OVTK_GDF_class7</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1025,14 +735,14 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 28</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/28.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking2.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
 					<Name>Stimulation 28</Name>
 					<DefaultValue>OVTK_StimulationId_Label_1C</DefaultValue>
-					<Value>OVTK_StimulationId_Label_23</Value>
+					<Value>OVTK_GDF_class8</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1040,14 +750,14 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 29</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/29.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking3.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
 					<Name>Stimulation 29</Name>
 					<DefaultValue>OVTK_StimulationId_Label_1D</DefaultValue>
-					<Value>OVTK_StimulationId_Label_24</Value>
+					<Value>OVTK_GDF_class9</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1055,14 +765,14 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 30</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/30.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking4.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
 					<Name>Stimulation 30</Name>
 					<DefaultValue>OVTK_StimulationId_Label_1E</DefaultValue>
-					<Value>OVTK_StimulationId_Label_25</Value>
+					<Value>OVTK_GDF_class10</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1070,14 +780,14 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 31</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/31.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking5.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
 					<Name>Stimulation 31</Name>
 					<DefaultValue>OVTK_StimulationId_Label_1F</DefaultValue>
-					<Value>OVTK_StimulationId_Label_26</Value>
+					<Value>OVTK_GDF_class11</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1085,7 +795,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 32</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/32.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1100,7 +810,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 33</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/33.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking2.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking2.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1115,7 +825,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 34</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/34.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking3.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking3.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1130,7 +840,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 35</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/35.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking4.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking4.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1145,7 +855,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 36</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/36.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking5.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking5.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1160,7 +870,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 37</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/37.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1175,7 +885,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 38</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/38.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/break_image.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/break_image.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1190,7 +900,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 39</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/39.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking1.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/speaking1.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1205,7 +915,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 40</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/40.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/rest.png</Value>
+					<Value>E:/Diss/Paradigm/imgs/rest.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1256,293 +966,6 @@
 			</Attributes>
 		</Box>
 		<Box>
-			<Identifier>(0x000045fd, 0x000079c6)</Identifier>
-			<Name>speaking7</Name>
-			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input signal</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Input stimulations</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Epoched signal</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch duration (in sec)</Name>
-					<DefaultValue>1</DefaultValue>
-					<Value>2</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch offset (in sec)</Name>
-					<DefaultValue>0.5</DefaultValue>
-					<Value>0</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
-					<Name>Stimulation 1</Name>
-					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
-					<Value>OVTK_StimulationId_Label_DE</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>400</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1072</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x5de31172, 0xa1304456)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>3</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x000056be, 0x00002b8c)</Identifier>
-			<Name>CSV File Writer</Name>
-			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input stream</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Stimulations stream</Name>
-				</Input>
-			</Inputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
-					<Name>Filename</Name>
-					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking7.csv</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
-					<Name>Precision</Name>
-					<DefaultValue>10</DefaultValue>
-					<Value>10</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Append data</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Only last matrix</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>480</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1072</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xc33e47e0, 0x70e5f31b)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>4</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x00005cfe, 0x00000340)</Identifier>
-			<Name>CSV File Writer</Name>
-			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input stream</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Stimulations stream</Name>
-				</Input>
-			</Inputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
-					<Name>Filename</Name>
-					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking9.csv</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
-					<Name>Precision</Name>
-					<DefaultValue>10</DefaultValue>
-					<Value>10</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Append data</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Only last matrix</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>480</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1424</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xc33e47e0, 0x70e5f31b)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>4</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x0000643b, 0x000022e3)</Identifier>
-			<Name>CSV File Writer</Name>
-			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input stream</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Stimulations stream</Name>
-				</Input>
-			</Inputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
-					<Name>Filename</Name>
-					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking6.csv</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
-					<Name>Precision</Name>
-					<DefaultValue>10</DefaultValue>
-					<Value>10</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Append data</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Only last matrix</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>480</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>912</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xc33e47e0, 0x70e5f31b)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>4</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
 			<Identifier>(0x000069de, 0x00005b8b)</Identifier>
 			<Name>CSV File Writer</Name>
 			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
@@ -1561,7 +984,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking1.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/speaking1.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1593,7 +1016,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>128</Value>
+					<Value>80</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1632,7 +1055,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking2.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/speaking2.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1664,7 +1087,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>288</Value>
+					<Value>240</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1703,7 +1126,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking3.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/speaking3.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1735,7 +1158,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>448</Value>
+					<Value>400</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1774,7 +1197,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking4.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/speaking4.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1806,7 +1229,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>608</Value>
+					<Value>560</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1845,7 +1268,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking5.csv</Value>
+					<Value>E:/Diss/Paradigm/experiments/speaking5.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1877,7 +1300,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>768</Value>
+					<Value>720</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1898,72 +1321,353 @@
 			</Attributes>
 		</Box>
 		<Box>
-			<Identifier>(0x00006e14, 0x00004f6d)</Identifier>
-			<Name>speaking9</Name>
-			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
+			<Identifier>(0x000069de, 0x00005b90)</Identifier>
+			<Name>CSV File Writer</Name>
+			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
 			<Inputs>
 				<Input>
 					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input signal</Name>
+					<Name>Input stream</Name>
 				</Input>
 				<Input>
 					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Input stimulations</Name>
+					<Name>Stimulations stream</Name>
 				</Input>
 			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Epoched signal</Name>
-				</Output>
-			</Outputs>
 			<Settings>
 				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch duration (in sec)</Name>
-					<DefaultValue>1</DefaultValue>
-					<Value>2</Value>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
+					<Value>E:/Diss/Paradigm/experiments/speaking6.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch offset (in sec)</Name>
-					<DefaultValue>0.5</DefaultValue>
-					<Value>0</Value>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Precision</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
-					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
-					<Name>Stimulation 1</Name>
-					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
-					<Value>OVTK_StimulationId_Label_23</Value>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Append data</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Only last matrix</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>400</Value>
+					<Value>480</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1424</Value>
+					<Value>880</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x5de31172, 0xa1304456)</Value>
+					<Value>(0xee4b6d30, 0x788aed29)</Value>
 				</Attribute>
 				<Attribute>
-					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
 					<Value></Value>
 				</Attribute>
 				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000069de, 0x00005b91)</Identifier>
+			<Name>CSV File Writer</Name>
+			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input stream</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations stream</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
+					<Value>E:/Diss/Paradigm/experiments/speaking7.csv</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Precision</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Append data</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Only last matrix</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>480</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1040</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xee4b6d30, 0x788aed29)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>3</Value>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000069de, 0x00005b92)</Identifier>
+			<Name>CSV File Writer</Name>
+			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input stream</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations stream</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
+					<Value>E:/Diss/Paradigm/experiments/speaking8.csv</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Precision</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Append data</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Only last matrix</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>480</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1200</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xee4b6d30, 0x788aed29)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000069de, 0x00005b93)</Identifier>
+			<Name>CSV File Writer</Name>
+			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input stream</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations stream</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
+					<Value>E:/Diss/Paradigm/experiments/speaking9.csv</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Precision</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Append data</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Only last matrix</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>480</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1360</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xee4b6d30, 0x788aed29)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000069de, 0x00005b94)</Identifier>
+			<Name>CSV File Writer</Name>
+			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input stream</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations stream</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
+					<Value>E:/Diss/Paradigm/experiments/speaking10.csv</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Precision</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Append data</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Only last matrix</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>480</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1520</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xee4b6d30, 0x788aed29)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
@@ -2006,7 +1710,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Ambulance_audio.wav</Value>
+					<Value>E:/Diss/Paradigm/wavs/Ambulance_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -2046,7 +1750,7 @@
 		</Box>
 		<Box>
 			<Identifier>(0x00006e24, 0x000022a9)</Identifier>
-			<Name>Stop</Name>
+			<Name>Srop</Name>
 			<AlgorithmClassIdentifier>(0x7ac2396f, 0x7ee52efe)</AlgorithmClassIdentifier>
 			<Inputs>
 				<Input>
@@ -2079,7 +1783,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Stop_audio.wav</Value>
+					<Value>E:/Diss/Paradigm/wavs/Stop_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -2152,7 +1856,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Toilet_audio.wav</Value>
+					<Value>E:/Diss/Paradigm/wavs/Toilet_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -2225,7 +1929,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Water_audio.wav</Value>
+					<Value>E:/Diss/Paradigm/wavs/Water_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -2264,80 +1968,6 @@
 			</Attributes>
 		</Box>
 		<Box>
-			<Identifier>(0x0000704c, 0x00007245)</Identifier>
-			<Name>speaking6</Name>
-			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input signal</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Input stimulations</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Epoched signal</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch duration (in sec)</Name>
-					<DefaultValue>1</DefaultValue>
-					<Value>2</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch offset (in sec)</Name>
-					<DefaultValue>0.5</DefaultValue>
-					<Value>0</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
-					<Name>Stimulation 1</Name>
-					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
-					<Value>OVTK_StimulationId_Label_DD</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>400</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>912</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x5de31172, 0xa1304456)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>3</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
 			<Identifier>(0x0000733d, 0x00004c0a)</Identifier>
 			<Name>Player Controller</Name>
 			<AlgorithmClassIdentifier>(0x5f426dce, 0x08456e13)</AlgorithmClassIdentifier>
@@ -2366,11 +1996,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>224</Value>
+					<Value>160</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>720</Value>
+					<Value>528</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2444,7 +2074,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>400</Value>
+					<Value>352</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2514,7 +2144,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>448</Value>
+					<Value>400</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2584,7 +2214,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>128</Value>
+					<Value>80</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2654,7 +2284,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>288</Value>
+					<Value>240</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2724,7 +2354,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>448</Value>
+					<Value>400</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2794,7 +2424,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>608</Value>
+					<Value>560</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2864,7 +2494,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>768</Value>
+					<Value>720</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2934,7 +2564,357 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>448</Value>
+					<Value>400</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xa79941ae, 0x80708445)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000743f, 0x00004427)</Identifier>
+			<Name>speaking6</Name>
+			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input signal</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input stimulations</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Epoched signal</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch duration (in sec)</Name>
+					<DefaultValue>1</DefaultValue>
+					<Value>2</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch offset (in sec)</Name>
+					<DefaultValue>0.5</DefaultValue>
+					<Value>0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation to epoch from</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_GDF_class7</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>400</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>880</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xa79941ae, 0x80708445)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000743f, 0x00004428)</Identifier>
+			<Name>speaking7</Name>
+			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input signal</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input stimulations</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Epoched signal</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch duration (in sec)</Name>
+					<DefaultValue>1</DefaultValue>
+					<Value>2</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch offset (in sec)</Name>
+					<DefaultValue>0.5</DefaultValue>
+					<Value>0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation to epoch from</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_GDF_class8</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>400</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1040</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xa79941ae, 0x80708445)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000743f, 0x00004429)</Identifier>
+			<Name>speaking8</Name>
+			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input signal</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input stimulations</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Epoched signal</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch duration (in sec)</Name>
+					<DefaultValue>1</DefaultValue>
+					<Value>2</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch offset (in sec)</Name>
+					<DefaultValue>0.5</DefaultValue>
+					<Value>0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation to epoch from</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_GDF_class9</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>400</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1200</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xa79941ae, 0x80708445)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000743f, 0x0000442a)</Identifier>
+			<Name>speaking9</Name>
+			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input signal</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input stimulations</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Epoched signal</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch duration (in sec)</Name>
+					<DefaultValue>1</DefaultValue>
+					<Value>2</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch offset (in sec)</Name>
+					<DefaultValue>0.5</DefaultValue>
+					<Value>0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation to epoch from</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_GDF_class10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>400</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1360</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xa79941ae, 0x80708445)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>3</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000743f, 0x0000442b)</Identifier>
+			<Name>speaking10</Name>
+			<AlgorithmClassIdentifier>(0x426163d1, 0x324237b0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input signal</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input stimulations</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Epoched signal</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch duration (in sec)</Name>
+					<DefaultValue>1</DefaultValue>
+					<Value>2</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Epoch offset (in sec)</Name>
+					<DefaultValue>0.5</DefaultValue>
+					<Value>0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation to epoch from</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_GDF_class11</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>400</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>1520</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2969,7 +2949,7 @@
 					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
 					<Name>Lua Script</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/timeline.lua</Value>
+					<Value>E:/Diss/Paradigm/timeline.lua</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -3034,13 +3014,24 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00000570, 0x00006c76)</Identifier>
+			<Identifier>(0x00000540, 0x0000236e)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x00006e14, 0x00004f6d)</BoxIdentifier>
+				<BoxIdentifier>(0x0000743f, 0x00004428)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x00005cfe, 0x00000340)</BoxIdentifier>
+				<BoxIdentifier>(0x000069de, 0x00005b91)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x000006b0, 0x000062fb)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x00004427)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -3078,24 +3069,13 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00001a5f, 0x000031c8)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000045fd, 0x000079c6)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x000056be, 0x00002b8c)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00001db0, 0x0000709a)</Identifier>
+			<Identifier>(0x00001dac, 0x00004706)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
 				<BoxOutputIndex>1</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x000045fd, 0x000079c6)</BoxIdentifier>
+				<BoxIdentifier>(0x0000743f, 0x00004428)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -3111,17 +3091,6 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x000020fe, 0x00005d02)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x000007e1, 0x000027ef)</BoxIdentifier>
-				<BoxInputIndex>1</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
 			<Identifier>(0x00002384, 0x00002ce6)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x0000743f, 0x00004421)</BoxIdentifier>
@@ -3129,6 +3098,28 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x000069de, 0x00005b8b)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00002384, 0x00002ce7)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x0000743f, 0x00004427)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000069de, 0x00005b90)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x000025ce, 0x00002fa2)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x0000442b)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -3144,14 +3135,25 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00002c1f, 0x00002d83)</Identifier>
+			<Identifier>(0x00002aa6, 0x00006676)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
+				<BoxIdentifier>(0x0000743f, 0x00004429)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x0000704c, 0x00007245)</BoxIdentifier>
+				<BoxIdentifier>(0x000069de, 0x00005b92)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00002ba7, 0x00000b77)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x00004427)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -3177,6 +3179,39 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x00002d1a, 0x00000152)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x0000743f, 0x0000442a)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000069de, 0x00005b93)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00002dd1, 0x00004cc5)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x0000442a)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00002f6d, 0x00005b60)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x00004429)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x000037aa, 0x00005078)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
@@ -3195,39 +3230,6 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x000045e9, 0x00003a99)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00003985, 0x00000956)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00001cf5, 0x00001479)</BoxIdentifier>
-				<BoxInputIndex>1</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00003a9c, 0x00003202)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00001cf5, 0x00001479)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00003e4a, 0x00002dd5)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00006e14, 0x00004f6d)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -3298,13 +3300,13 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00004921, 0x00003044)</Identifier>
+			<Identifier>(0x0000461f, 0x00000685)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x00001cf5, 0x00001479)</BoxIdentifier>
+				<BoxIdentifier>(0x0000743f, 0x0000442b)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x0000301d, 0x00005dc0)</BoxIdentifier>
+				<BoxIdentifier>(0x000069de, 0x00005b94)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
@@ -3317,6 +3319,17 @@
 			<Target>
 				<BoxIdentifier>(0x0000743f, 0x00004425)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00004ff0, 0x0000784d)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x0000442a)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -3364,6 +3377,17 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x00005766, 0x00003580)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x00004428)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x00005be1, 0x000040b8)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
@@ -3372,17 +3396,6 @@
 			<Target>
 				<BoxIdentifier>(0x00006e24, 0x000022ab)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00005e93, 0x00007498)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x0000704c, 0x00007245)</BoxIdentifier>
-				<BoxInputIndex>1</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -3419,6 +3432,17 @@
 			</Target>
 		</Link>
 		<Link>
+			<Identifier>(0x00006586, 0x00003e94)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000743f, 0x00004429)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
 			<Identifier>(0x0000659e, 0x0000382a)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
@@ -3452,25 +3476,14 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00006aac, 0x0000058e)</Identifier>
+			<Identifier>(0x00007329, 0x00005569)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x00002726, 0x0000531f)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x000007e1, 0x000027ef)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x0000722b, 0x00001b27)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x0000704c, 0x00007245)</BoxIdentifier>
+				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x0000643b, 0x000022e3)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
+				<BoxIdentifier>(0x0000743f, 0x0000442b)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
@@ -3481,39 +3494,6 @@
 			</Source>
 			<Target>
 				<BoxIdentifier>(0x0000743f, 0x0000441d)</BoxIdentifier>
-				<BoxInputIndex>1</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x0000756b, 0x00003fcb)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000007e1, 0x000027ef)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x0000123a, 0x00000efe)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x0000795b, 0x00004640)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x000045fd, 0x000079c6)</BoxIdentifier>
-				<BoxInputIndex>1</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00007c43, 0x00007390)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000079ff, 0x00004013)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00006e14, 0x00004f6d)</BoxIdentifier>
 				<BoxInputIndex>1</BoxInputIndex>
 			</Target>
 		</Link>
