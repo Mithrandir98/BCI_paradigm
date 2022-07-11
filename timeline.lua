@@ -8,7 +8,7 @@ function initialize(box)
 	-- should probably have a little period of time before the next one or the box wont be happy
 	
 	baseline_duration = 5
-	speaking_duration = 3
+	speaking_duration = 2
 	blank_duration = 1
     cue_duration = 5
 	rest_duration = 5
@@ -96,7 +96,7 @@ function process(box)
 		if sequence[i] == OVTK_StimulationId_Target then
 			box:send_stimulation(1, OVTK_StimulationId_Target, t, 0)
 			t = t + break_duration
-		
+			-- if sequence[i] == OVTK_StimulationId_
 		else
 
 		
@@ -105,6 +105,10 @@ function process(box)
 			box:send_stimulation(1, OVTK_StimulationId_Label_00, t, 0)
 			box:send_stimulation(1, sequence[i], t, 0)
 			t = t + cue_duration
+
+			
+			box:send_stimulation(1, OVTK_StimulationId_Label_12, t, 0)
+			t = t + post_trial_duration
 
 			--speaking
 			box:send_stimulation(1, OVTK_GDF_Tongue, t, 0)
@@ -132,6 +136,21 @@ function process(box)
 			-- t = t + blank_duration
 
 			box:send_stimulation(1, OVTK_GDF_Stage_4, t, 0)
+			t = t + speaking_duration
+
+			box:send_stimulation(1, OVTK_StimulationId_Label_DD, t, 0)
+			t = t + speaking_duration
+
+			box:send_stimulation(1, OVTK_StimulationId_Label_DE, t, 0)
+			t = t + speaking_duration
+
+			box:send_stimulation(1, OVTK_StimulationId_Label_DF, t, 0)
+			t = t + speaking_duration
+
+			box:send_stimulation(1, OVTK_StimulationId_Label_23, t, 0)
+			t = t + speaking_duration
+
+			box:send_stimulation(1, OVTK_StimulationId_Label_21, t, 0)
 			t = t + speaking_duration
 			
 			--rest
