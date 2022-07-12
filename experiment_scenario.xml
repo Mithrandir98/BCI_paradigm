@@ -98,7 +98,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/stimuli.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/stimuli.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -169,7 +169,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/resting.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/resting.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -240,7 +240,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/break.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/break.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -334,7 +334,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 1</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/01.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Ambulance_audio.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Ambulance_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -348,7 +348,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 2</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/02.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Stop_audio.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -362,7 +362,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 3</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/03.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Toilet_audio.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -376,7 +376,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 4</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/04.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Water_audio.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water_audio.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -390,7 +390,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Cue Image 5</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/07.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Ambulance_text.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Ambulance_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -405,7 +405,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 6</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/06.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Stop_text.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -420,7 +420,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 7</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/07.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Toilet_text.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -435,7 +435,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 8</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/08.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Water_text.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water_text.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -450,7 +450,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 9</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/09.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/ambulance.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/ambulance.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -465,7 +465,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 10</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/10.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Stop.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Stop.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -480,7 +480,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 11</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/11.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Toilet.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Toilet.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -495,7 +495,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 12</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/12.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/Water.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Water.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -510,7 +510,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 13</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/13.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -525,7 +525,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 14</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/14.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -540,7 +540,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 15</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/15.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -555,7 +555,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 16</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/16.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -570,7 +570,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 17</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/17.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -585,7 +585,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 18</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/18.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -600,7 +600,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 19</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/19.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -615,7 +615,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 20</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/20.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -630,7 +630,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 21</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/21.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -645,7 +645,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 22</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/22.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -660,7 +660,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 23</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/23.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -675,7 +675,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 24</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/24.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -690,7 +690,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 25</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/25.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -705,7 +705,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 26</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/26.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -720,7 +720,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 27</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/27.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking1.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking6.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -735,7 +735,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 28</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/28.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking2.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking7.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -750,7 +750,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 29</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/29.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking3.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking8.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -765,7 +765,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 30</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/30.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking4.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking9.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -780,7 +780,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 31</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/31.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking5.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking10.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -795,7 +795,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 32</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/32.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -810,7 +810,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 33</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/33.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking2.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking2.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -825,7 +825,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 34</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/34.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking3.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking3.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -840,7 +840,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 35</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/35.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking4.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking4.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -855,7 +855,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 36</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/36.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking5.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking5.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -870,7 +870,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 37</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/37.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -885,7 +885,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 38</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/38.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/break_image.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/break_image.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -900,7 +900,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 39</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/39.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/speaking1.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/speaking1.jpeg</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -915,7 +915,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 40</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/40.png</DefaultValue>
-					<Value>E:/Diss/Paradigm/imgs/rest.png</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/rest.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -984,7 +984,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking1.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking1.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1055,7 +1055,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking2.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking2.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1126,7 +1126,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking3.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking3.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1197,7 +1197,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking4.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking4.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1268,7 +1268,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking5.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking5.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1339,7 +1339,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking6.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking6.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1410,7 +1410,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking7.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking7.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1481,7 +1481,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking8.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking8.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1552,7 +1552,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking9.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking9.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1623,7 +1623,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
-					<Value>E:/Diss/Paradigm/experiments/speaking10.csv</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/speaking10.csv</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1710,7 +1710,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>E:/Diss/Paradigm/wavs/Ambulance_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Ambulance_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1750,7 +1750,7 @@
 		</Box>
 		<Box>
 			<Identifier>(0x00006e24, 0x000022a9)</Identifier>
-			<Name>Srop</Name>
+			<Name>Stop</Name>
 			<AlgorithmClassIdentifier>(0x7ac2396f, 0x7ee52efe)</AlgorithmClassIdentifier>
 			<Inputs>
 				<Input>
@@ -1783,7 +1783,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>E:/Diss/Paradigm/wavs/Stop_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Stop_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1856,7 +1856,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>E:/Diss/Paradigm/wavs/Toilet_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Toilet_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1929,7 +1929,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>File to play</Name>
 					<DefaultValue>${Path_Data}/plugins/stimulation/ov_beep.wav</DefaultValue>
-					<Value>E:/Diss/Paradigm/wavs/Water_audio.wav</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/wavs/Water_audio.wav</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -2949,7 +2949,7 @@
 					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
 					<Name>Lua Script</Name>
 					<DefaultValue></DefaultValue>
-					<Value>E:/Diss/Paradigm/timeline.lua</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/timeline.lua</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>

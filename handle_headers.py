@@ -5,15 +5,17 @@ import warnings
 
 # set variables with matching strings corresponding to all the stimulation id labels in OpenVibe paradigm
 OVTK_StimulationId_Label_0A = "OVTK_StimulationId_Label_0A"
-OVTK_StimulationId_Label_0B = "OVTK_StimulationId_Label_0B"
-OVTK_StimulationId_Label_0C = "OVTK_StimulationId_Label_0C"
-OVTK_StimulationId_Label_1A = "OVTK_StimulationId_Label_1A"
-OVTK_StimulationId_Label_1B = "OVTK_StimulationId_Label_1B"
-OVTK_StimulationId_Label_1C = "OVTK_StimulationId_Label_1C"
-OVTK_StimulationId_Label_01 = "OVTK_StimulationId_Label_01"
-OVTK_StimulationId_Label_02 = "OVTK_StimulationId_Label_02"
-OVTK_StimulationId_Label_03 = "OVTK_StimulationId_Label_03"
-            
+OVTK_StimulationId_Label_0B = "OVTK_StimulationId_Label_0B" 
+OVTK_StimulationId_Label_0C = "OVTK_StimulationId_Label_0C" 
+OVTK_StimulationId_Label_0D = "OVTK_StimulationId_Label_0D" 
+OVTK_StimulationId_Label_1A = "OVTK_StimulationId_Label_1A" 
+OVTK_StimulationId_Label_1B = "OVTK_StimulationId_Label_1B" 
+OVTK_StimulationId_Label_1C = "OVTK_StimulationId_Label_1C" 
+OVTK_StimulationId_Label_1D = "OVTK_StimulationId_Label_1D" 
+OVTK_StimulationId_Label_01 = "OVTK_StimulationId_Label_01" 
+OVTK_StimulationId_Label_02 = "OVTK_StimulationId_Label_02" 
+OVTK_StimulationId_Label_03 = "OVTK_StimulationId_Label_03" 
+OVTK_StimulationId_Label_04 = "OVTK_StimulationId_Label_04"        
 OVTK_StimulationId_Target = "OVTK_StimulationId_Target"
 
 # use dictionary to match Stim ID labels to phone labels
@@ -21,73 +23,159 @@ OVTK_StimulationId_Target = "OVTK_StimulationId_Target"
 
 # copy sequence from OpenVibe designer Lua script and change curly brackets to parentheses
 sequence = (
-        OVTK_StimulationId_Label_0A,
-        OVTK_StimulationId_Label_0B,
-        OVTK_StimulationId_Label_0C,
-        OVTK_StimulationId_Label_1A,
-        OVTK_StimulationId_Label_1B,
-        OVTK_StimulationId_Label_1C,
-        OVTK_StimulationId_Label_01,
-        OVTK_StimulationId_Label_02,
-        OVTK_StimulationId_Label_03,
+OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_1A,
 
-		    OVTK_StimulationId_Label_0A,
-        OVTK_StimulationId_Label_0B,
-        OVTK_StimulationId_Label_0C,
-        OVTK_StimulationId_Label_1A,
-        OVTK_StimulationId_Label_1B,
-        OVTK_StimulationId_Label_1C,
-        OVTK_StimulationId_Label_01,
-        OVTK_StimulationId_Label_02,
-        OVTK_StimulationId_Label_03,
-        
-        OVTK_StimulationId_Target,
-
-		    OVTK_StimulationId_Label_0A,
-        OVTK_StimulationId_Label_0B,
-        OVTK_StimulationId_Label_0C,
-        OVTK_StimulationId_Label_1A,
-        OVTK_StimulationId_Label_1B,
-        OVTK_StimulationId_Label_1C,
-        OVTK_StimulationId_Label_01,
-        OVTK_StimulationId_Label_02,
-        OVTK_StimulationId_Label_03,
-
-		    OVTK_StimulationId_Label_0A,
-        OVTK_StimulationId_Label_0B,
-        OVTK_StimulationId_Label_0C,
-        OVTK_StimulationId_Label_1A,
-        OVTK_StimulationId_Label_1B,
-        OVTK_StimulationId_Label_1C,
-        OVTK_StimulationId_Label_01,
-        OVTK_StimulationId_Label_02,
-        OVTK_StimulationId_Label_03,
-        
-        OVTK_StimulationId_Target,
-
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_1C,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_1B,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_02,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_0C,
+		OVTK_StimulationId_Label_03,
+		OVTK_StimulationId_Label_0D,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_04,
+		OVTK_StimulationId_Label_0B,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_1A,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_1D,
+		OVTK_StimulationId_Label_0A,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_01,
+		OVTK_StimulationId_Label_04
 )
 
-labels = {"OVTK_StimulationId_Label_0A" : 'apple',
-                      "OVTK_StimulationId_Label_0B" : 'dog',
-                      "OVTK_StimulationId_Label_0C" : 'pencil',
-                      "OVTK_StimulationId_Label_1A" : 'apple',
-                      "OVTK_StimulationId_Label_1B" : 'dog',
-                      "OVTK_StimulationId_Label_1C" : 'pencil',
-                      "OVTK_StimulationId_Label_01" : 'apple',
-                      "OVTK_StimulationId_Label_02" : 'dog',
-                      "OVTK_StimulationId_Label_03" : 'pencil',
-                      "OVTK_StimulationId_Target" : 'break'}
+labels = {
+            "OVTK_StimulationId_Label_0A" : "Ambulance",
+            "OVTK_StimulationId_Label_0B" : "Stop", 
+            "OVTK_StimulationId_Label_0C" : "Toilet", 
+            "OVTK_StimulationId_Label_0D" : "Water", 
+            "OVTK_StimulationId_Label_1A" : "Ambulance", 
+            "OVTK_StimulationId_Label_1B" : "Stop", 
+            "OVTK_StimulationId_Label_1C" : "Toilet", 
+            "OVTK_StimulationId_Label_1D" : "Water",
+            "OVTK_StimulationId_Label_01" : "Ambulance", 
+            "OVTK_StimulationId_Label_02" : "Stop", 
+            "OVTK_StimulationId_Label_03" : "Toilet", 
+            "OVTK_StimulationId_Label_04" : "Water",        
+            "OVTK_StimulationId_Target" : "Break"
+        }
 
-modes = {"OVTK_StimulationId_Label_0A" : 'text',
-                      "OVTK_StimulationId_Label_0B" : 'visual',
-                      "OVTK_StimulationId_Label_0C" : 'audio',
-                      "OVTK_StimulationId_Label_1A" : 'text',
-                      "OVTK_StimulationId_Label_1B" : 'visual',
-                      "OVTK_StimulationId_Label_1C" : 'audio',
-                      "OVTK_StimulationId_Label_01" : 'text',
-                      "OVTK_StimulationId_Label_02" : 'visual',
-                      "OVTK_StimulationId_Label_03" : 'audio',
-                      "OVTK_StimulationId_Target" : "None"}
+modes = {"OVTK_StimulationId_Label_0A" : "text",
+        "OVTK_StimulationId_Label_0B" : "text", 
+        "OVTK_StimulationId_Label_0C" : "text", 
+        "OVTK_StimulationId_Label_0D" : "text", 
+        "OVTK_StimulationId_Label_1A" : "image", 
+        "OVTK_StimulationId_Label_1B" : "image", 
+        "OVTK_StimulationId_Label_1C" : "image", 
+        "OVTK_StimulationId_Label_1D" : "image", 
+        "OVTK_StimulationId_Label_01" : "audio", 
+        "OVTK_StimulationId_Label_02" : "audio", 
+        "OVTK_StimulationId_Label_03" : "audio", 
+        "OVTK_StimulationId_Label_04" : "audio",        
+        "OVTK_StimulationId_Target" : "None"
+        }
 
 
 # set the path to directory for the csv files output from OpenVibe
