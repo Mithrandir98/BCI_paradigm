@@ -510,7 +510,7 @@
 					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
 					<Name>Cue Image 13</Name>
 					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/13.png</DefaultValue>
-					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/pencil_image.jpg</Value>
+					<Value>C:/Users/willa/Documents/Diss/BCI_paradigm-main/imgs/Get_Ready.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -2539,7 +2539,7 @@
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Epoch duration (in sec)</Name>
 					<DefaultValue>1</DefaultValue>
-					<Value>60</Value>
+					<Value>110</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>

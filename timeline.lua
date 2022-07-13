@@ -12,7 +12,8 @@ function initialize(box)
 	blank_duration = 1
     cue_duration = 5
 	rest_duration = 5
-    break_duration = 120
+    break_duration = 110
+	get_ready_duration = 10
 	post_trial_duration = 1
 	
 	sequence = {
@@ -164,11 +165,12 @@ function process(box)
 		if sequence[i] == OVTK_StimulationId_Target then
 			box:send_stimulation(1, OVTK_StimulationId_Target, t, 0)
 			t = t + break_duration
+
+			box:send_stimulation(1, OVTK_StimulationId_Label_DD, t, 0)
+			t = t + get_ready_duration
 		
 		else
 
-		
-		
 			--stimuli
 			box:send_stimulation(1, OVTK_StimulationId_Label_00, t, 0)
 			box:send_stimulation(1, sequence[i], t, 0)
