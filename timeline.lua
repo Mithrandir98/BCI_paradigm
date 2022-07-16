@@ -186,6 +186,9 @@ function process(box)
 			t = t + get_ready_duration
 		
 		else
+			--rest
+			box:send_stimulation(1, OVTK_StimulationId_RestStart, t, 0)
+			t = t + rest_duration
 			
 			--stimuli
 			box:send_stimulation(1, OVTK_StimulationId_Label_00, t, 0)
@@ -240,10 +243,6 @@ function process(box)
 			box:send_stimulation(1, OVTK_GDF_class11, t, 0)
 			t = t + speaking_duration
 			
-			--rest
-			box:send_stimulation(1, OVTK_StimulationId_RestStart, t, 0)
-			t = t + rest_duration
-
 
 			
 			-- end of thinking epoch and trial
