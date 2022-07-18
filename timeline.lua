@@ -258,6 +258,6 @@ function process(box)
 	t = t + 5
 
 	-- used to cause the acquisition scenario to stop and denote final end of file
-	box:send_stimulation(1, OVTK_StimulationId_ExperimentStop, t, 0)
+	-- box:send_stimulation(1, OVTK_StimulationId_ExperimentStop, t, 0)
 		
 end
