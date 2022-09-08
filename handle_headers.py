@@ -1,3 +1,5 @@
+# The code below has been fully written by and is used with the authorization of Vladislav Shishkin, June 2022.
+
 from pathlib import Path
 import pandas as pd
 import warnings
@@ -191,7 +193,7 @@ modes = {"OVTK_StimulationId_Label_0A" : "text",
 
 
 # set the path to directory for the csv files output from OpenVibe
-directory = Path("C:/Users/willa/Documents/Diss/BCI_paradigm-main/experiments/")
+directory = Path("E:/Diss/Paradigm/experiments")
 dfs = []
 
 # keep in mind that this code will read all csv files in the chosen directory
